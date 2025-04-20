@@ -16,11 +16,10 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2em;
 	line-height: 1em;
-
 }
 .container {
 	max-width: 640px;
-	margin: 20px auto;
+	margin: 60px auto;
 	background-color: rgb(255, 255, 255);
 	padding: 20px;
 	border-radius: 20px;
@@ -75,4 +74,8 @@ main{
 }
 .bad{
 	background: rgb(255, 123, 123);
+}
+
+::placeholder{
+	font-size: 1em;
 }
